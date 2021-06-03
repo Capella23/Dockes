@@ -1,0 +1,159 @@
+2021-06-02 21:54:14.318                         INFO  21 main            i.t.a.Program                            *** AGENT - START ***
+2021-06-02 21:54:14.634                         INFO  21 init-entry      i.t.a.h                                  TestProject Agent 2.3.4 (5b3405f30) on Linux
+2021-06-02 21:54:14.658                         INFO  21 init-entry      i.t.a.h                                  Running under user agent (/home/agent) of type Unknown with Guest privileges
+2021-06-02 21:54:14.659                         INFO  21 init-entry      i.t.a.h                                  Running inside docker c868b2c02821
+2021-06-02 21:54:14.663                         INFO  21 init-entry      i.t.a.h                                  No X11 available - headless mode.
+2021-06-02 21:54:14.666                         INFO  21 init-entry      i.t.a.s.IdentityManager                  No identity file was found - Agent is not registered
+2021-06-02 21:54:14.671                         INFO  21 init-entry      i.t.a.h                                  Working folder: /opt/testproject/agent
+2021-06-02 21:54:14.671                         INFO  21 init-entry      i.t.a.h                                  Data folder: /var/testproject/agent
+2021-06-02 21:54:14.675                         INFO  21 init-entry      i.t.a.h                                  Agent IP addresses: 172.21.0.4
+2021-06-02 21:54:14.882                         INFO  21 init-entry      i.t.a.m.f.l                              No Android SDK found
+2021-06-02 21:54:14.883                         INFO  21 init-entry      i.t.a.i.l                                Waiting a bit for IOS Wrapper to come up...
+2021-06-02 21:54:24.927                         INFO  21 init-entry      i.t.a.m.c.a                              Running in docker - ADB version querying will be skipped.
+2021-06-02 21:54:24.929                         INFO  21 init-entry      i.t.a.m.c.a                              Detected Java [13-ea]
+2021-06-02 21:54:24.929                         INFO  21 init-entry      i.t.a.m.c.a                              Detected DotNet [2.2.8]
+2021-06-02 21:54:24.931                         INFO  21 init-entry      i.t.a.m.c.b                              Searching for installed browsers...
+2021-06-02 21:54:24.933                         INFO  21 init-entry      i.t.a.m.c.b                              Getting external browser version via http://chrome:4444/wd/hub
+2021-06-02 21:54:25.856                         INFO  21 init-entry      i.t.a.m.c.b                              External CHROME version is 90.0.4430.85
+2021-06-02 21:54:25.921                         INFO  21 init-entry      i.t.a.m.c.b                              Getting external browser version via http://firefox:4444/wd/hub
+2021-06-02 21:54:27.747                         INFO  21 init-entry      i.t.a.m.c.b                              External FIREFOX version is 88.0
+2021-06-02 21:54:28.131                         INFO  21 init-entry      i.t.a.m.c.b                              Finished detecting installed browsers.
+2021-06-02 21:54:28.132                         INFO  21 init-entry      i.t.a.m.c.a                              Running in docker - drivers detection will be skipped.
+2021-06-02 21:54:28.154                         INFO  21 init-entry      i.t.a.m.b                                Starting gRPC Server on port localhost:34205
+2021-06-02 21:54:28.306                         INFO  21 init-entry      i.t.a.m.O                                Runtime information saved
+2021-06-02 21:54:28.307                         INFO  21 init-entry      i.t.a.h                                  Agent initialization is complete.
+2021-06-02 21:54:28.309                         INFO  21 init-entry      i.t.a.s.IdentityManager                  No identity file was found - Agent is not registered
+2021-06-02 21:54:28.316                         INFO  21 idle-entry      i.t.a.m.f.k                              Appium server executable not found, assuming mobile components are not installed.
+2021-06-02 21:54:28.318                         ERROR 21 idle-entry      i.t.a.m.x                                [Alert Message] - Mobile recording session can not be started because Appium failed to start.
+Your Antivirus or malware protection software might be blocking it, turn it off and try again.
+If this problem persists, please contact TestProject support.
+2021-06-02 21:54:28.319                         INFO  21 idle-entry      i.t.a.w.b                                Starting Web Server...
+2021-06-02 21:54:28.320                         INFO  21 idle-entry      i.t.a.w.b                                Starting internal web server...
+2021-06-02 21:54:28.326                         INFO  21 disconnect-entr i.t.a.m.K                                Checking Agent's connectivity with the outside world...
+2021-06-02 21:54:28.890                         INFO  21 disconnect-entr i.t.a.m.K                                Connection established successfully.
+2021-06-02 21:54:28.891                         INFO  21 disconnect-entr i.t.a.f.c.a.k                            Direct connection (no proxy) is possible.
+2021-06-02 21:54:28.892                         INFO  21 disconnect-entr i.t.a.f.c.a.k                            External connectivity is possible, proceeding to Authentication...
+2021-06-02 21:54:28.893                         INFO  21 auth-entry      i.t.a.f.c.a.a                            Trying to load Agent remote identity...
+2021-06-02 21:54:28.894                         INFO  21 auth-entry      i.t.a.s.IdentityManager                  No identity file was found - Agent is not registered
+2021-06-02 21:54:28.894                         INFO  21 auth-entry      i.t.a.f.c.a.a                            Checking if configuration passed via environment variable is present...
+2021-06-02 21:54:28.895                         INFO  21 auth-entry      i.t.a.f.c.a.a                            Trying to register with configuration provided...
+2021-06-02 21:54:28.895                         INFO  21 auth-entry      i.t.a.f.c.a.a                            Registering agent with configuration
+2021-06-02 21:54:28.914                         INFO  21 pool-3-thread-3 i.t.a.b.b.h                              Connecting TestProject servers...
+2021-06-02 21:54:28.914                         INFO  21 pool-3-thread-3 i.t.a.m.K                                Checking Agent's connectivity with the outside world...
+2021-06-02 21:54:29.269                         INFO  21 pool-3-thread-3 i.t.a.m.K                                Connection established successfully.
+2021-06-02 21:54:29.270                         INFO  21 pool-3-thread-3 i.t.a.b.b.h                              Registering Agent...
+2021-06-02 21:54:29.270                         INFO  21 pool-3-thread-3 i.t.a.b.b.h                              Preparing to send registration request to host https://api.testproject.io/
+2021-06-02 21:54:29.279                         INFO  21 pool-3-thread-3 i.t.a.b.b.h                              Sending registration request to https://api.testproject.io/agents/registration/agents
+2021-06-02 21:54:29.650                         INFO  21 idle-entry      i.t.a.w.b                                Web server started on http://localhost:8585
+2021-06-02 21:54:30.457                         INFO  21 pool-3-thread-4 i.t.a.b.a.d                              POST https://api.testproject.io/agents/registration/agents - 200 (qHwKZ9Fz): No Message
+2021-06-02 21:54:30.458                         INFO  21 pool-3-thread-3 i.t.a.b.b.h                              Registration request succeeded.
+2021-06-02 21:54:30.532                         INFO  21 auth-entry      i.t.a.m.L                                Registered successfully
+2021-06-02 21:54:30.570                         INFO  21 auth-entry      i.t.a.s.IdentityManager                  Agent identity has been saved
+2021-06-02 21:54:30.590                         INFO  21 auth-entry      i.t.a.f.c.a.a                            Agent is registered as [Docker Capitão América] (PwuBe7tUUUupx9fUc_GkFA), proceeding to authentication...
+2021-06-02 21:54:30.592                         INFO  21 auth-entry      i.t.a.f.c.a.a                            Authenticating with TestProject...
+2021-06-02 21:54:30.595                         INFO  21 auth-entry      i.t.a.s.c                                Requesting authenticating token...
+2021-06-02 21:54:31.567                         INFO  21 auth-entry      i.t.a.s.c                                Authenticated successfully
+2021-06-02 21:54:31.579                         INFO  21 state-machine   i.t.a.m.f.l                              No Android SDK found
+2021-06-02 21:54:31.580                         INFO  21 state-machine   i.t.a.i.l                                Waiting a bit for IOS Wrapper to come up...
+2021-06-02 21:54:41.582                         INFO  21 state-machine   i.t.a.f.c.a.h                            Starting Signal...
+2021-06-02 21:54:42.284                         INFO  21 EventThread     i.t.a.b.c.a                              Signal connected, awaiting authentication result...
+2021-06-02 21:54:42.287                         INFO  21 EventThread     i.t.a.b.c.a                              Sent empty Session ID
+2021-06-02 21:54:44.201                         INFO  21 EventThread     i.t.a.b.c.a                              Signal authentication finished
+2021-06-02 21:54:44.204                         INFO  21 EventThread     i.t.a.b.c.a                              Connection Session ID: DvCe-s8hT
+2021-06-02 21:54:44.204                         INFO  21 EventThread     i.t.a.b.c.a                              Signal authorized
+2021-06-02 21:54:44.584                         INFO  21 idle-entry      i.t.a.b.a.d                              POST https://api.testproject.io/api/v1/agent/certificate - 200 (00000000): No Message
+2021-06-02 21:54:44.616                         INFO  21 idle-entry      i.t.a.w.b                                Added SSL connector
+2021-06-02 21:54:44.616                         INFO  21 idle-entry      i.t.a.s.IdentityManager                  Requesting remote identity...
+2021-06-02 21:54:44.892                         INFO  21 idle-entry      i.t.a.b.a.d                              GET https://api.testproject.io/api/v1/agent - 200 (00000000): No Message
+2021-06-02 21:54:44.897                         WARN  21 idle-entry      i.t.a.s.IdentityManager                  Latest version is unknown, Agent might be outdated
+2021-06-02 21:54:44.901                         INFO  21 idle-entry      i.t.a.s.IdentityManager                  Agent identity has been saved
+2021-06-02 21:54:44.902                         INFO  21 idle-entry      i.t.a.f.c.a.d                            Account plan: Free
+2021-06-02 21:54:44.902                         INFO  21 idle-entry      i.t.a.h                                  Refreshing & reporting capabilities...
+2021-06-02 21:54:44.905                         INFO  21 idle-entry      i.t.a.m.c.a                              Running in docker - ADB version querying will be skipped.
+2021-06-02 21:54:44.907                         INFO  21 idle-entry      i.t.a.m.c.a                              Detected Java [13-ea]
+2021-06-02 21:54:44.907                         INFO  21 idle-entry      i.t.a.m.c.a                              Detected DotNet [2.2.8]
+2021-06-02 21:54:44.908                         INFO  21 idle-entry      i.t.a.m.c.a                              Running in docker - drivers detection will be skipped.
+2021-06-02 21:54:45.211                         INFO  21 jersey-client-a i.t.a.b.a.d                              POST https://api.testproject.io/api/v1/agent/capabilities - 200 (00000000): Capabilities were received
+2021-06-02 21:54:45.212                         INFO  21 idle-entry      i.t.a.m.f.l                              No Android SDK found
+2021-06-02 21:54:45.212                         INFO  21 idle-entry      i.t.a.i.l                                Waiting a bit for IOS Wrapper to come up...
+2021-06-02 21:54:55.214                         INFO  21 idle-entry      i.t.a.b.b.c                              Retrieving list of provisioned iOS devices...
+2021-06-02 21:54:55.619                         INFO  21 idle-entry      i.t.a.b.a.d                              GET https://api.testproject.io/api/v1/devices/provisioned - 200 (00000000): No Message
+2021-06-02 21:54:55.621                         INFO  21 pool-3-thread-3 i.t.a.b.b.c                              Reporting state: Idle
+2021-06-02 21:55:05.094                         INFO  21 idle-entry      i.t.a.m.A                                Reported Agent state and got response - [Agent Version: 2.3.4]
+2021-06-02 21:55:05.098                         INFO  21 idle-entry      i.t.a.m.d.p                              Report uploading manager started.
+2021-06-02 22:00:24.172                         INFO  21 ForkJoinPool.co i.t.a.h                                  Stopping...
+2021-06-02 22:00:24.176                         INFO  21 ForkJoinPool.co i.t.a.h                                  Stopping Identity Server client...
+2021-06-02 22:00:24.176                         INFO  21 ForkJoinPool.co i.t.a.h                                  Stopping Signal...
+2021-06-02 22:00:24.178                         INFO  21 ForkJoinPool.co i.t.a.b.c.a                              Sent shutdown event to Signal server
+2021-06-02 22:00:24.182                         INFO  21 ForkJoinPool.co i.t.a.b.c.a                              Disconnecting Signal as part of the SignalClient stop sequence
+2021-06-02 22:00:24.183                         INFO  21 ForkJoinPool.co i.t.a.h                                  Stopping internal web server...
+2021-06-02 22:00:24.194                         INFO  21 ForkJoinPool.co i.t.a.f.c.d                              Agent state machine stopped.
+2021-06-02 22:00:24.201                         INFO  21 EventThread     i.t.a.b.c.a                              Signal disconnected - io client disconnect
+2021-06-02 23:14:06.555                         INFO  7 main            i.t.a.Program                            *** AGENT - START ***
+2021-06-02 23:14:07.106                         INFO  7 init-entry      i.t.a.h                                  TestProject Agent 2.3.4 (5b3405f30) on Linux
+2021-06-02 23:14:07.148                         INFO  7 init-entry      i.t.a.h                                  Running under user agent (/home/agent) of type Unknown with Guest privileges
+2021-06-02 23:14:07.149                         INFO  7 init-entry      i.t.a.h                                  Running inside docker c868b2c02821
+2021-06-02 23:14:07.155                         INFO  7 init-entry      i.t.a.h                                  No X11 available - headless mode.
+2021-06-02 23:14:07.312 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.h                                  Working folder: /opt/testproject/agent
+2021-06-02 23:14:07.313 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.h                                  Data folder: /var/testproject/agent
+2021-06-02 23:14:07.319 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.h                                  Agent IP addresses: 172.21.0.2
+2021-06-02 23:14:07.648 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.f.l                              No Android SDK found
+2021-06-02 23:14:07.650 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.i.l                                Waiting a bit for IOS Wrapper to come up...
+2021-06-02 23:14:17.742 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.c.a                              Running in docker - ADB version querying will be skipped.
+2021-06-02 23:14:17.744 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.c.a                              Detected Java [13-ea]
+2021-06-02 23:14:17.745 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.c.a                              Detected DotNet [2.2.8]
+2021-06-02 23:14:17.749 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.c.b                              Searching for installed browsers...
+2021-06-02 23:14:17.751 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.c.b                              Getting external browser version via http://chrome:4444/wd/hub
+2021-06-02 23:14:20.766 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.c.b                              External CHROME version is 90.0.4430.85
+2021-06-02 23:14:20.838 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.c.b                              Getting external browser version via http://firefox:4444/wd/hub
+2021-06-02 23:14:24.738 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.c.b                              External FIREFOX version is 88.0
+2021-06-02 23:14:25.229 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.c.b                              Finished detecting installed browsers.
+2021-06-02 23:14:25.231 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.c.a                              Running in docker - drivers detection will be skipped.
+2021-06-02 23:14:25.275 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.b                                Starting gRPC Server on port localhost:34617
+2021-06-02 23:14:25.602 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.m.O                                Runtime information saved
+2021-06-02 23:14:25.603 PwuBe7tUUUupx9fUc_GkFA  INFO  7 init-entry      i.t.a.h                                  Agent initialization is complete.
+2021-06-02 23:14:25.623 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.m.f.k                              Appium server executable not found, assuming mobile components are not installed.
+2021-06-02 23:14:25.626 PwuBe7tUUUupx9fUc_GkFA  ERROR 7 idle-entry      i.t.a.m.x                                [Alert Message] - Mobile recording session can not be started because Appium failed to start.
+Your Antivirus or malware protection software might be blocking it, turn it off and try again.
+If this problem persists, please contact TestProject support.
+2021-06-02 23:14:25.626 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.w.b                                Starting Web Server...
+2021-06-02 23:14:25.627 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.w.b                                Starting internal web server...
+2021-06-02 23:14:25.630 PwuBe7tUUUupx9fUc_GkFA  INFO  7 disconnect-entr i.t.a.m.K                                Checking Agent's connectivity with the outside world...
+2021-06-02 23:14:26.258 PwuBe7tUUUupx9fUc_GkFA  INFO  7 disconnect-entr i.t.a.m.K                                Connection established successfully.
+2021-06-02 23:14:26.258 PwuBe7tUUUupx9fUc_GkFA  INFO  7 disconnect-entr i.t.a.f.c.a.k                            Direct connection (no proxy) is possible.
+2021-06-02 23:14:26.259 PwuBe7tUUUupx9fUc_GkFA  INFO  7 disconnect-entr i.t.a.f.c.a.k                            External connectivity is possible, proceeding to Authentication...
+2021-06-02 23:14:26.260 PwuBe7tUUUupx9fUc_GkFA  INFO  7 auth-entry      i.t.a.f.c.a.a                            Trying to load Agent remote identity...
+2021-06-02 23:14:26.270 PwuBe7tUUUupx9fUc_GkFA  INFO  7 auth-entry      i.t.a.f.c.a.a                            Agent is registered as [Docker Capitão América] (PwuBe7tUUUupx9fUc_GkFA), proceeding to authentication...
+2021-06-02 23:14:26.273 PwuBe7tUUUupx9fUc_GkFA  INFO  7 auth-entry      i.t.a.f.c.a.a                            Authenticating with TestProject...
+2021-06-02 23:14:26.277 PwuBe7tUUUupx9fUc_GkFA  INFO  7 auth-entry      i.t.a.s.c                                Requesting authenticating token...
+2021-06-02 23:14:26.654 PwuBe7tUUUupx9fUc_GkFA  INFO  7 auth-entry      i.t.a.s.c                                Authenticated successfully
+2021-06-02 23:14:26.695 PwuBe7tUUUupx9fUc_GkFA  INFO  7 state-machine   i.t.a.m.f.l                              No Android SDK found
+2021-06-02 23:14:26.696 PwuBe7tUUUupx9fUc_GkFA  INFO  7 state-machine   i.t.a.i.l                                Waiting a bit for IOS Wrapper to come up...
+2021-06-02 23:14:27.216 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.w.b                                Web server started on http://localhost:8585
+2021-06-02 23:14:36.699 PwuBe7tUUUupx9fUc_GkFA  INFO  7 state-machine   i.t.a.f.c.a.h                            Starting Signal...
+2021-06-02 23:14:36.723 PwuBe7tUUUupx9fUc_GkFA  INFO  7 auth-entry      i.t.a.b.b.c                              Reporting state: Idle
+2021-06-02 23:14:37.516 PwuBe7tUUUupx9fUc_GkFA  INFO  7 EventThread     i.t.a.b.c.a                              Signal connected, awaiting authentication result...
+2021-06-02 23:14:37.522 PwuBe7tUUUupx9fUc_GkFA  INFO  7 EventThread     i.t.a.b.c.a                              Sent empty Session ID
+2021-06-02 23:14:38.846 PwuBe7tUUUupx9fUc_GkFA  INFO  7 EventThread     i.t.a.b.c.a                              Signal authentication finished
+2021-06-02 23:14:38.849 PwuBe7tUUUupx9fUc_GkFA  INFO  7 EventThread     i.t.a.b.c.a                              Connection Session ID: EjO0biQDL
+2021-06-02 23:14:38.850 PwuBe7tUUUupx9fUc_GkFA  INFO  7 EventThread     i.t.a.b.c.a                              Signal authorized
+2021-06-02 23:14:39.863 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.b.a.d                              POST https://api.testproject.io/api/v1/agent/certificate - 200 (00000000): No Message
+2021-06-02 23:14:39.898 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.w.b                                Added SSL connector
+2021-06-02 23:14:39.899 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.s.IdentityManager                  Requesting remote identity...
+2021-06-02 23:14:40.202 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.b.a.d                              GET https://api.testproject.io/api/v1/agent - 200 (00000000): No Message
+2021-06-02 23:14:40.233 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.s.IdentityManager                  Agent identity has been saved
+2021-06-02 23:14:40.234 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.f.c.a.d                            Account plan: Free
+2021-06-02 23:14:40.235 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.h                                  Refreshing & reporting capabilities...
+2021-06-02 23:14:40.239 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.m.c.a                              Running in docker - ADB version querying will be skipped.
+2021-06-02 23:14:40.240 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.m.c.a                              Detected Java [13-ea]
+2021-06-02 23:14:40.241 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.m.c.a                              Detected DotNet [2.2.8]
+2021-06-02 23:14:40.242 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.m.c.a                              Running in docker - drivers detection will be skipped.
+2021-06-02 23:14:40.526 PwuBe7tUUUupx9fUc_GkFA  INFO  7 jersey-client-a i.t.a.b.a.d                              POST https://api.testproject.io/api/v1/agent/capabilities - 200 (00000000): Capabilities were received
+2021-06-02 23:14:40.527 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.m.f.l                              No Android SDK found
+2021-06-02 23:14:40.527 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.i.l                                Waiting a bit for IOS Wrapper to come up...
+2021-06-02 23:14:44.763 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.m.A                                Reported Agent state and got response - [Agent Version: 2.3.4]
+2021-06-02 23:14:50.529 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.b.b.c                              Retrieving list of provisioned iOS devices...
+2021-06-02 23:14:51.525 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.b.a.d                              GET https://api.testproject.io/api/v1/devices/provisioned - 200 (00000000): No Message
+2021-06-02 23:14:51.527 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.b.b.c                              Reporting state: Idle
+2021-06-02 23:14:51.814 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.m.A                                Reported Agent state and got response - [Agent Version: 2.3.4]
+2021-06-02 23:14:51.947 PwuBe7tUUUupx9fUc_GkFA  INFO  7 idle-entry      i.t.a.m.d.p                              Report uploading manager started.

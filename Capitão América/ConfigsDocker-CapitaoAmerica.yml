@@ -1,0 +1,21 @@
+version: "3.1"
+services:
+  testproject-agent:
+    image: testproject/agent:latest
+    container_name: capitao-america-agente
+    depends_on:
+      - chrome
+      - firefox
+    volumes:
+      - C:/Users/capel/OneDrive/Trabalho/Alelo/Automação de Testes/Dockes/Capitão América:/var/testproject/agent
+    environment:
+      TP_API_KEY: "wK1EpE0WM527Gvvv2iIrcy9Tj8Y3ZtKf8iZ0uzukJHg1"
+      TP_AGENT_ALIAS: "Docker Capitão América"
+      CHROME: "chrome:4444"
+      FIREFOX: "firefox:4444"
+  chrome:
+    image: selenium/standalone-chrome
+    shm_size: '1gb'
+  firefox:
+    image: selenium/standalone-firefox
+    shm_size: '1gb'

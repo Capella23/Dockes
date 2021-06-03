@@ -1,0 +1,21 @@
+version: "3.1"
+services:
+  testproject-agent:
+    image: testproject/agent:latest
+    container_name: thor-agente
+    depends_on:
+      - chrome
+      - firefox
+    volumes:
+      - C:/Users/capel/OneDrive/Trabalho/Alelo/Automação de Testes/Dockes/Thor:/var/testproject/agent
+    environment:
+      TP_API_KEY: "3r3TaCbBosfNc9qj3rAxnp_a_c1SZL56jn_AylSsvqM1"
+      TP_AGENT_ALIAS: "Docker Thor"
+      CHROME: "chrome:4444"
+      FIREFOX: "firefox:4444"
+  chrome:
+    image: selenium/standalone-chrome
+    shm_size: '1gb'
+  firefox:
+    image: selenium/standalone-firefox
+    shm_size: '1gb'
